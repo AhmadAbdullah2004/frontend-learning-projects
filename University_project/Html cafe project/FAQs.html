@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="icon"  href="pic/profilefaq.png">
+
+    <meta charset="UTF-8" />
+    <title>FAQ</title>
+    <style>
+      /*---Header---*/
+      body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+            background-color: #C19065;
+            
+        }
+
+        #large {
+            margin: 0;
+            width: 100%;
+            height: 850px;}
+            
+
+      
+
+
+
+        #introduction {
+            width: 200px;
+            height: 50px;
+            border: none;
+            margin: auto;
+            border-bottom: white 2px solid;
+            margin-bottom: 50px;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        ul {
+            color: brown;
+        }
+
+        li {
+            text-align: left;
+            color: brown;
+        }
+
+
+        #h4 {
+            margin-bottom: 10px;
+        }
+
+        #logo {
+            width: 150px;
+            height: 100px;
+
+            img {
+                width: 150px;
+                height: 100px;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: #b17f59d6;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        #main {
+            margin-left: 180px;
+        }
+
+        #links {
+            float: right;
+            margin-top: -80px;
+            align-items: center;
+            padding: 10px 40px;
+            margin-right: 150px;
+
+            a {
+                padding-right: 20px;
+                margin: 20px;
+                text-decoration: none;
+                color: white;
+                border-right: 2px white solid;
+
+            }
+
+            a:hover {
+                color: antiquewhite;
+                font-weight: bolder;
+            }
+
+
+            select {
+                background-color: transparent;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                font-size: 16px;
+            }
+
+
+            select:focus {
+                background-color: white;
+                color: black;
+            }
+
+        } #logIn {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 7px;
+  margin-right: 30px;
+   margin-top: -85px;
+   text-align: center;
+
+}
+
+#logIn a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+#logIn a:hover {
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+        /*-----FAQ-----*/
+        .faq-container {
+      max-width: 700px;
+      margin: 0 auto;
+      background:wheat;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2em;
+      color: black;
+    }
+
+    .faq-description {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4c4b4b;
+      font-size: 1em;
+    }
+
+    details {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px 16px;
+      background-color: #fdfdfd;
+      transition: all 0.3s ease;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      position: relative;
+      padding-right: 25px;
+    }
+
+    summary::marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "⌄";
+      position: absolute;
+      right: 0;
+      font-size: 1em;
+      transform: rotate(0deg);
+      transition: transform 0.3s ease;
+    }
+
+    details[open] summary::after {
+      transform: rotate(180deg);
+    }
+
+    details p {
+      margin: 10px 0 0;
+      line-height: 1.6;
+      color: #444;
+    }
+    </style>
+</head>
+<body>
+     <!----Header---->
+   <div id="large">
+        <div>
+            <div id="logo"><a href="Homee.html"><img src="pic/logo.png" alt=""></a></div>
+       <div id="links">
+      <a href="Homee.html" class="A">Home</a>
+      <a href="About Us.html" class="A">About Us</a>
+      <a href="blog.html" class="A">Blog</a>
+      <a href="Contactus.html" class="A">Contact Us</a>
+     <select name="pages" onchange="location = this.value;">
+      <option value="%">Pages</option>
+        <option value="menu.html">Menu</option>
+        <option value="Gallery.html">Gallery</option>
+        <option value="FaQs.html">FAQs</option>
+        <option value="casestudies.html">Case Studies</option>
+        
+
+      </select>
+       
+    </div ><div id="logIn">
+     <a href="log in.html" class="A" >Join Us</a>
+     </div>
+  </div>
+
+
+      <!----FAQ---->
+      <div class="faq-container">
+    <h1 style="font-family: 'Courier New', Courier, monospace">☕FAQ(Frequently Asked Questions)☕</h1>
+    <p class="faq-description">Here you’ll find answers to the most frequently asked questions about our services.</p>
+
+    <details>
+      <summary> 🕒What are the café’s working hours?</summary>
+      <p>We’re open daily from 8:00 AM to 11:00 PM, including weekends.</p>
+    </details>
+
+    <details>
+      <summary> 📅Is the café open on weekends?</summary>
+      <p>Yes! We’re open every day, including Fridays and Saturdays.</p>
+    </details>
+
+    <details>
+      <summary>📶Is there free Wi-Fi at the café?</summary>
+      <p>Yes, free Wi-Fi is available to all our guests.</p>
+    </details>
+
+    <details>
+      <summary>💳Do you accept credit card payments?</summary>
+      <p>Yes, we accept credit/debit cards, mobile wallets, and cash.</p>
+    </details>
+
+    <details>
+      <summary>📞Can I reserve a table in advance?</summary>
+      <p>Yes, you can book a table by calling us or messaging us on Instagram.</p>
+    </details>
+
+    <details>
+      <summary>🌱Do you offer vegan or lactose-free options?</summary>
+      <p>Yes! We have plant-based milks (like almond, oat, and soy) and light vegan snacks.</p>
+    </details>
+
+    <details>
+      <summary>🚬Do you have a smoking area?</summary>
+      <p>Yes, there’s an outdoor area designated for smoking.</p>
+    </details>
+
+    <details>
+      <summary>🚗Are there parking spots near the café?</summary>
+      <p>Yes, there’s free and nearby parking available for customers.</p>
+    </details>
+
+  </div>
+
+  <div id="navbar"></div>
+    
+</body>
+</html>

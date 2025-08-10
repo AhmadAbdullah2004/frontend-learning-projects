@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+<title>title</title>
+    <style>
+        .ooo{ width: 150px;}
+    </style>
+    <script>
+        function cheek(){
+            var x =document.getElementById("name").value;
+             var y =document.getElementById("pass").value;
+              if (x !="Ali"){
+              alert(" incorect user name")
+                }
+                else if( y !="HTML"){
+                    document.getElementById("aaa").style.backgroundColor="red";
+
+                }
+                else{
+                    document.getElementById("aaa").style.backgroundColor="red";
+                    document.getElementById("bbb").innerHTML = " welcome";
+                }
+
+        }
+    </script>
+</head>
+<body id="aaa">
+     <input type="text"  id="name">
+     <input type="password" id="pass">
+    
+     <input type="button" value=" login" onclick="cheek()" class="ooo">
+     <p id="bbb"></p>
+</body>
+</html>

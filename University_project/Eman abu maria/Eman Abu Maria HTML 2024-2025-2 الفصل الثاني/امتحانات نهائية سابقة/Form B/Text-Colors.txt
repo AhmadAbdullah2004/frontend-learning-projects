@@ -1,0 +1,47 @@
+
+home      contact us      help        center
+
+-------
+contact us
+Morbi convallis metus eros, semper efficitur auctor. Etiam sit amet convallis erat. 
+Class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus nec dolor suscipit faucibus.
+
+We are looking forward to start a project with you!
+-------------
+medical center
+ 
+our history, mission and vision
+paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur.
+
+
+read more
+
+----------
+contact form
+
+
+Enter Your Name
+Enter Your Email
+Enter Your Message
+
+-------
+location
+
+28 Jackson Blvd Ste 1020 Chicago
+IL 60604-2340
+------------
+follow us
+
+©2021 Privacy policy
+--------------------
+Colors: 
+
+Drak Blue: #2c4776
+Cyan : #04c9db
+Silver: #ccd3db
+Light Purple: #9174f0
+Dark Purple: #574789
+ 
+
+
+

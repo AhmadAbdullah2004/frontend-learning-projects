@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        p{text-align: center;}
+    </style>
+</head>
+<body id="mm">
+    <input type="text" id="user"><br>
+    <input type="password" id="pass"> 
+    <input type="button" value="login" onclick="chek()">
+    <p id="qq"></p>
+</body>
+<script>
+    function chek(){
+        var x = document.getElementById("user").value;
+        var y = document.getElementById("pass").value;
+
+        if (x !="Ali"){
+            alert("incorict");
+
+        }
+        else if (y !="Html"){
+            document.getElementById("mm").style.backgroundColor="red";
+
+
+        }
+        else{
+        document.getElementById("mm").style.backgroundColor="green";
+        document.getElementById("qq").innerHTML="wwwe";}
+}
+</script>
+</html>

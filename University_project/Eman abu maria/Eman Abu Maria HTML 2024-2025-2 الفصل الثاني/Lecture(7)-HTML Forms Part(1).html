@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lecture(7)-HTML Forms Part(1)</title>
+</head>
+
+<body>
+
+    <h1>Lecture(7)-HTML Forms Part(1)</h1>
+    <form>
+        <table border="1" align="center" width="80%">
+            <!--Row 1-->
+            <tr>
+                <td><label>Name</label> </td>
+                <td><input type="text" placeholder="user name"></td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!--Row 2-->
+            <tr>
+                <td><label>Password</label> </td>
+                <td><input type="password" placeholder="Password"></td>
+                <td>&nbsp;</td>
+            </tr>
+
+
+            <!--Row 3-->
+            <tr>
+                <td><label>Country</label> </td>
+                <td>
+                    <!--Combo Box-List-->
+                    <select size="4" multiple>
+                        <option selected>UK</option>
+                        <option>USA</option>
+                        <option selected>Jordan</option>
+                    </select>
+
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!--Row 4-->
+            <tr>
+                <td><label>Gender</label> </td>
+                <td>
+                    <!--Radio button-->
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                </td>
+                <td> <input type="radio" name="gender">
+                    <label>Female</label>
+                </td>
+            </tr>
+
+            <!--Row 5-->
+            <tr>
+                <td><label> Langues</label> </td>
+                <td>
+                    <!--CheckBox-->
+                    <input type="checkbox">
+                    <label>Java</label>
+                    <input type="checkbox">
+                    <label>VB.Net</label>
+                </td>
+                <td> <input type="checkbox">
+                    <label>C++</label>
+                    <input type="checkbox">
+                    <label>Paython</label>
+                </td>
+            </tr>
+
+            <!--Row 6-->
+            <tr>
+                <td colspan="3"><label>Comments</label></td>
+            </tr>
+
+            <!--Row 7-->
+            <tr>
+                <td colspan="3">
+                    <!--Textarea-multilines -->
+                    <textarea rows="10" cols="40" placeholder="comments">
+
+                        </textarea>
+                </td>
+            </tr>
+
+
+        </table>
+    </form>
+
+
+</body>
+
+</html>

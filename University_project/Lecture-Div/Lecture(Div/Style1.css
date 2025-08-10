@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{border: 1px solid gray;}
+ .header {
+    background-color:#FCF;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+ .nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:15%;
+    float:right;
+    padding:10px;
+}
+
+.nav a{text-decoration: none;
+	   color: white;
+		background-color: hotpink;
+		display: block;
+		width: 80px;
+		padding: 2px 10px;
+		border-bottom: 1px solid white;}
+ .section {height:300px;
+    width:75%;
+    float:left;
+    padding:10px;
+}
+
+
+ .section p{ text-align: justify;}/*just fy ----> */
+
+ .section h1{color: hotpink}
+
+ .footer {
+    background-color:#F09;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:20px;
+}

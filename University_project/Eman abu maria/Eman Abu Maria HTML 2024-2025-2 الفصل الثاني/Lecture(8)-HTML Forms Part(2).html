@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lecture(8)-HTML Forms Part(2)</title>
+    <script>
+        function Show() {
+            alert("hi");
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+    <h1>Lecture(7)-HTML Forms Part(1)</h1>
+    <form method="get" action="http://www.zuj.edu.jo">
+        <table border="1" align="center" width="80%">
+            <!--Row 1-->
+            <tr>
+                <td><label>Name</label> </td>
+                <td><input type="text" maxlength="5" value="eman"    placeholder="user name" size="30"></td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!--Row 2-->
+            <tr>
+                <td><label>Password</label> </td>
+                <td><input id="Pas" required autofocus type="password" placeholder="Password"></td>
+                <td><input type="button" value="show" onclick="Show()"></td>
+            </tr>
+
+
+            <!--Row 3-->
+            <tr>
+                <td><label>Country</label> </td>
+                <td>
+                    <!--Combo Box-List-->
+                    <select size="4" multiple>
+                        <option selected>UK</option>
+                        <option>USA</option>
+                        <option selected>Jordan</option>
+                    </select>
+
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+
+            <!--Row 4-->
+            <tr>
+                <td><label>Gender</label> </td>
+                <td>
+                    <!--Radio button-->
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                </td>
+                <td> <input type="radio" name="gender">
+                    <label>Female</label>
+                </td>
+            </tr>
+
+            <!--Row 5-->
+            <tr>
+                <td><label> Langues</label> </td>
+                <td>
+                    <!--CheckBox-->
+                    <input type="checkbox">
+                    <label>Java</label>
+                    <input type="checkbox">
+                    <label>VB.Net</label>
+                </td>
+                <td> <input type="checkbox">
+                    <label>C++</label>
+                    <input type="checkbox">
+                    <label>Paython</label>
+                </td>
+            </tr>
+
+            <!--Row 6-->
+            <tr>
+                <td colspan="3"><label>Comments</label></td>
+            </tr>
+
+            <!--Row 7-->
+            <tr>
+                <td colspan="3">
+                    <!--Textarea-multilines -->
+                    <textarea rows="10" cols="40" placeholder="comments">
+
+                        </textarea>
+                </td>
+            </tr>
+
+
+            <!--Row 8-->
+            <tr>
+                <td><label>Upload Photo</label></td>
+                <td colspan="2">
+                    <input type="file">
+                </td>
+            </tr>
+            <!--Row 9-->
+            <tr>
+                <td>
+                    <input type="button" value="Login">
+                    <button>Sign out</button>
+                </td>
+                <td><input type="reset"></td>
+                <td><input type="submit"></td>
+
+            </tr>
+
+
+        </table>
+    </form>
+
+    <hr>
+    <h1>Lecture(8)-HTML Forms Part(2)</h1>
+
+    <h2>HTML5 Input Types</h2>
+    <form method="get" action="http://www.zuj.edu.jo">
+        <table border="1" width="80%" align="center">
+            <!--Row 1-->
+            <tr>
+                <td><label>Color</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <!--Row 2-->
+            <tr>
+                <td><label>Date</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <!--Row 3-->
+            <tr>
+                <td><label>Time</label></td>
+                <td><input type="time"></td>
+            </tr>
+            <!--Row 4-->
+            <tr>
+                <td><label>month</label></td>
+                <td><input type="month"></td>
+
+            </tr>
+
+            <!--Row 5-->
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email"></td>
+            </tr>
+
+            <!--Row 6-->
+            <tr>
+                <td colspan="2"><input type="submit">
+                    <input type="range" >
+                </td>
+            </tr>
+    </form>
+    </table>
+    <hr>
+    <form method="get" action="http://www.zuj.edu.jo">
+
+        <input type="file"> <br>
+
+        <input type="button" value="Login"><br>
+        <button>Sign out</button><br>
+
+        <input type="reset"><br>
+        <input type="submit"><br>
+
+
+    </form>
+
+
+    <hr>
+    <form action="/action_page.php" autocomplete="on">
+        First name:<input type="text" name="fname"><br> <br>
+        Last name: <input type="text" name="lname"><br> <br>
+        E-mail: <input type="email" name="email" autocomplete="off"><br><br>
+        <input type="submit"><br><br>
+        <hr>
+        Enter a date before 1980-01-01:
+        <input type="date" name="bday" max="1979-12-31"><br>
+        Enter a date after 2000-01-01:
+        <input type="date" name="bday" min="2000-01-02"><br>
+
+
+    </form>
+
+
+
+    <form method="get" action="http://www.zuj.edu.jo">
+        <input type="button" value="Login">
+        <button>Login</button>
+
+        <!--------------------->
+
+        <input type="file">
+        <input type="reset">
+        <input type="submit">
+
+
+    </form>
+
+
+
+</body>
+
+</html>

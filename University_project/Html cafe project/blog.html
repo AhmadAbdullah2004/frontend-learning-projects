@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="icon"  href="pic/profileblog.png">
+
+  <meta charset="UTF-8" />
+  <title>Finjank Blog</title>
+  <style>
+    body {
+      background-color: #e5c9a5d8;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0px;
+      text-align: center;
+    }
+
+   #large {
+            margin: 0;
+            width: 100%;
+            height: 850px;
+              
+        }
+
+    #logo {
+            width: 150px;
+            height: 100px;
+
+            img {
+                width: 150px;
+                height: 100px;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: #b48058d6;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+
+  #links {
+            float: right;
+            margin-top: -80px;
+            align-items: center;
+            padding: 10px 40px;
+            margin-right: 150px;
+
+            a {
+                padding-right: 20px;
+                margin: 20px;
+                text-decoration: none;
+                color: white;
+                border-right: 2px white solid;
+
+            }
+
+            a:hover {
+                color: antiquewhite;
+                font-weight: bolder;
+            }
+
+
+            select {
+                background-color: transparent;/* no color/**/
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                font-size: 16px;
+            }
+
+
+            select:focus {
+                background-color: white;
+                color: black;
+            }
+
+        } #logIn {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 7px;
+  margin-right: 30px;
+   margin-top: -85px;
+   text-align: center;
+
+}
+
+#logIn a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+#logIn a:hover {
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+
+    h2 {
+      color: #5a3e2b;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #8b5e3c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px;
+      width: 300px;
+      height: 150px;
+    }
+
+    button:hover {
+      background-color: #a76e4b;
+    }
+
+    #myBlog {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #fff9f3;
+      border-radius: 10px;
+      color: #3d2b1f;
+      box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+      min-height: 180px;
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="large">
+        <div>
+            <div id="logo"><a href="Homee.html"><img src="pic/logo.png" alt=""></a></div>
+            <div id="links">
+      <a href="Homee.html" class="A">Home</a>
+      <a href="About Us.html" class="A">About Us</a>
+      <a href="blog.html" class="A">Blog</a>
+      <a href="Contactus.html" class="A">Contact Us</a>
+     <select name="pages" onchange="location = this.value;">
+      <option value="%">Pages</option>
+        <option value="menu.html">Menu</option>
+        <option value="Gallery.html">Gallery</option>
+        <option value="FaQs.html">FAQs</option>
+        <option value="casestudies.html">Case Studies</option>
+        
+
+      </select>
+       
+    </div ><div id="logIn">
+     <a href="log in.html" class="A" >Join Us</a>
+     </div>
+  </div>
+
+
+  <h2>☕ Welcome to Finjank Blog</h2>
+
+  <button onclick="post1()">☕ Discover Summer Specials</button>
+  <button onclick="post2()">📅 World Coffee Day</button>
+  <button onclick="post3()">♻️ Sustainability at Finjank</button>
+  <button onclick="post4()">🔥 Behind the Scenes: Roasting</button>
+  <button onclick="espressoPost()">💥☕ How to Make Perfect Espresso</button>
+
+  <div id="myBlog">
+    <p>Click any button above to read the article.</p>
+  </div>
+
+  <script>
+    function post1() {
+      document.getElementById("myBlog").innerHTML = `
+        <h3>☕ Discover Our Summer Specials!</h3>
+ <img src="pic/BLOGIMG1.jpg" alt="Espresso Making" style="width:100%; max-width:400px; border-radius:8px; margin-bottom:15px;">
+        <p>Try our refreshing cold brew and iced mocha specials this summer. Perfect for beating the heat while enjoying rich coffee flavors!</p>
+        <small>Posted on: 25-05-2025</small>
+      `;
+    }
+    function post2() {
+      document.getElementById("myBlog").innerHTML = `
+        <h3>🎉 Celebrate World Coffee Day with Us</h3>
+        <img src="pic/blogimg2.jpg" alt="Espresso Making" style="width:100%; max-width:400px; border-radius:8px; margin-bottom:15px;">
+     
+        <p>Join us on October 1st for special offers, live music, and coffee tasting sessions. Let's celebrate the love of coffee together!</p>
+        <small>Posted on: 15-05-2025</small>
+      `;
+    }
+    function post3() {
+      document.getElementById("myBlog").innerHTML = `
+        <h3>🌱 Sustainability at Finjank</h3>
+        <img src="pic/blogimg3.jpg" alt="Espresso Making" style="width:100%; max-width:400px; border-radius:8px; margin-bottom:15px;">
+
+        <p>Learn about our new eco-friendly initiatives, from biodegradable cups to locally sourced beans. Helping the planet one cup at a time.</p>
+        <small>Posted on: 10-05-2025</small>
+      `;
+    }
+    function post4() {
+      document.getElementById("myBlog").innerHTML = `
+        <h3>🛠️ Behind the Scenes: Roasting Process</h3>
+        <img src="pic/blogimg4.jpg" alt="Espresso Making" style="width:100%; max-width:400px; border-radius:8px; margin-bottom:15px;">
+
+        <p>Ever wondered how your favorite coffee beans are roasted? Discover our roasting secrets that bring out the perfect aroma and taste.</p>
+        <small>Posted on: 05-05-2025</small>
+      `;
+    }
+    function espressoPost() {
+      document.getElementById("myBlog").innerHTML = `
+        <h3>🔥 How to Make Perfect Espresso</h3>
+        <img src="pic/blogimg5.jpg" alt="Espresso Making" style="width:100%; max-width:400px; border-radius:8px; margin-bottom:15px;">
+       
+        <p>1️⃣ Start with freshly ground coffee beans (fine grind).<br>
+        2️⃣ Pack the coffee evenly into the portafilter.<br>
+        3️⃣ Use high-quality water heated to 90-96°C.<br>
+        4️⃣ Brew for 25-30 seconds for a rich, bold shot.<br>
+        5️⃣ Enjoy it solo or as a base for other drinks like latte & cappuccino!</p>
+        <small>Posted on: 23-05-2025</small>
+      `;
+    }
+  </script>
+
+</body>
+
+</html>

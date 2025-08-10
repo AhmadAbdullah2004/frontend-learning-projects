@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture(11)-Id and notation class</title>
+</head>
+<style>
+table,td{
+border: 5px solid red;  margin: auto;      /*----solid لون البوردر وووووmargin مكان الجدول---*/
+
+}
+
+/*iddddd notation*/
+/*--------------Header Section------*/
+#header{background-color: green;
+    width:800px ;
+     height:200px ;    }
+     #header p{
+color: white;
+text-transform: capitalize;
+font-weight: bold;
+     }
+     /*--------------footer Section------*/
+#footer{background-color: green;
+    width:800px ;
+     height: 50px; ;                /* 1000 كمرجع
+*/
+}
+#footer p{color: yellow;
+text-transform: capitalize;
+font-weight: bold;}
+
+/*---- class notation--*/
+
+
+.Side{background-color: orange;
+    width:200px ;
+     height: 400px; ;                /* 1000 كمرجع
+*/
+}
+.Side p{color: chartreuse;}
+/*----center seection-----*/
+#center{
+width:500px ;
+height: 400px; ;
+background-image: url(Types-of-Professional-Courses\ \(1\).jpg);
+background-repeat: no-repeat;
+size: 100%;
+
+}
+
+
+</style>
+
+
+
+
+
+
+
+<body>
+    <h1>Lecture11.id and notation class</h1>
+<table border="1">
+<tr>
+<td colspan="3" id="header"> <p>pargaph header </p></td>  <!-- هيك الidبتسدعىى -->
+
+</tr>
+<tr>
+    <td class="Side"> <p>pargaph side</p></td>
+    <td id="center"> <p>pargaph center</p></td>
+    <td class="Side"> <p>pargaph side</p></td>
+    
+    </tr>
+    <tr>
+        <td colspan="3" id="footer"> <p>pargaph footer </p></td> <!-- هيك الidبتسدعىى -->
+        
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<!--
+
+.Footer {
+بنحط الخصائص
+}
+.Update footer{
+هان بنضيف خصائص جديده عليه
+
+}
+
+وبنكتبهم حمب بعض لما نستدعيهم
+هاي بتستخدم  اذا التابلين مشتركين تقريبا بنفس الخصاىص بس واحد في شويه تعديل 
+
+
+class=".footer .update footer"
+
+
+
+
+
+
+
+-->

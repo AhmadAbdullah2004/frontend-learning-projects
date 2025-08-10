@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: #edebec;
+  height: 70px;
+}
+#headerimg {
+  width: 139px;
+  position: relative;
+  top: 10px;
+  left: 130px;
+}
+#headermenu {
+  height: 20px;
+  width: 420;
+  float: right;
+  position: relative;
+  bottom: 15px;
+  right: 200px;
+  
+}
+#headermenu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  font-family: FreeMono, monospace;
+}
+#headermenu a:hover {
+  color: #d36281;
+}
+#a4 {
+  margin-left: 88px;
+}
+span {
+  font-size: 20px;
+}
+#Contact {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#Contact img {
+  width: 100%;
+  height: 417px;
+}
+form {
+  width: 273px;
+  height: 318px;
+  position: absolute;
+  right: 141px;
+  top: 39px;
+  border: 4px solid #ff90cb;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+#Contact input,
+#Contactp,
+#Contacta {
+  display: block;
+  margin: 15px 10px 10px 32px;
+  padding: 9px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="button"] {
+  width: 218px;
+  background-color: #e5e8ed;
+  border: 0px solid black;
+}
+input[type="button"] {
+  background-color: #746bde;
+  color: white;
+}
+
+#Contact a {
+  text-decoration: none;
+  color: #a7abb3;
+  margin-right: 29px;
+}
+#Contact label{
+  position: relative;
+  top:-25px;
+  left: -24px;
+  color:#a7abb3;
+}
+#div3 {
+  width: 100%;
+  height: 250px;
+  background-color: #e9e7e8;
+  position: relative;
+}
+#div3-0 {
+  position: absolute;
+  top: 32px;
+  left: 91px;
+  width: 420px;
+  color: #8e7e7d;
+}
+h4 {
+  font-size: 20px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #e2346a;
+}
+
+#div3img {
+  float: right;
+  position: absolute;
+  bottom: 1px;
+  right: 270px;
+  width: 300px;
+}
+#div3img img {
+  height: 200px;
+  width: 300px;
+}
+#div4 {
+  height: 140px;
+  width: 100%;
+  background-color: #c8c10e;
+  position: relative;
+  color: white;
+}
+#div4img1 {
+  position: absolute;
+  left: 456px;
+  top: 7px;
+  width: 132px;
+  height: 90px;
+}
+#div4img1 p {
+  position: absolute;
+  left: 24px;
+  bottom: -30px;
+}
+#div4img2 {
+  position: absolute;
+  right: 440px;
+  top: 7px;
+  width: 132px;
+  height: 90px;
+}
+#div4img2 p {
+  position: absolute;
+  right: 37px;
+  bottom: -30px;
+}
+#footer {
+  width: 100%;
+  height: 160px;
+  background-color: #cb3362;
+  color: white;
+
+  position: relative;
+}
+#footer p {
+  position: absolute;
+  top: 54px;
+  right: 40%;
+  font-size: 20px;
+}

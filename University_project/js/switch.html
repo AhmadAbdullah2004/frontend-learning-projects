@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>select a city in jordan </h2>
+    <br>
+    <select id="cityselect" onchange="showcityinfo()">
+
+        <option value="">--chooes a city--</option>
+        <option value="amman">amman</option>          
+        <option value="irbid">irbid</option>          
+        <option value="m3an">m3an</option>          
+
+    </select>
+    <p id="cityinfo"></p>
+    <img src="img/About us.jpg" id="pic"> //defulte 
+    <script>
+
+function showcityinfo(){
+let city =document.getElementById("cityselect").value;
+let info="";
+var img="";
+switch(city){
+case"amman":
+info="wowwwwwwwwwwwwwwwwwwwwwwwwwwooow"
+img="img/About us.jpg"
+break;
+case"irbid":
+info="buorefol"
+img="img/cafe7.jpg"
+break;
+case"m3an":
+info="maaaaaaaaaaaaaaaaaaaaaaaaaa3aaaaaaaaan"
+}
+document.getElementById("cityinfo").textContent=info //text.content نص 
+document.getElementById("pic").src=img;  // src صوره
+
+
+}
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

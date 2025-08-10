@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="icon"  href="pic/profilemenu.png">
+
+    <meta charset="UTF-8" />
+    <title>Menu</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+            background-image: url(pic/backmenu.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+
+        }
+
+        #large {
+            margin: 0;
+            width: 100%;
+            height: 250vh;
+
+        }
+
+
+
+        #introduction {
+            width: 200px;
+            height: 50px;
+            border: none;
+            margin: auto;
+            border-bottom: white 2px solid;
+            margin-bottom: 50px;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-left: 680px;
+        }
+
+        #hot {
+            width: 209px;
+            height: 350px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-image: url(pic/Hot.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+
+
+        }
+
+        #price1 {
+            width: 200px;
+            height: 340px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            text-align: center;
+            background-color: #F0BB78;
+            color: brown;
+            border-radius: 20px;
+            padding-top: 10px;
+
+            span {
+                color: black;
+            }
+
+        }
+
+        #price2 {
+            width: 200px;
+            height: 340px;
+            float: right;
+            margin-right: 230px;
+            margin-top: 10px;
+            background-color: #F0BB78;
+            color: brown;
+            text-align: center;
+            border-radius: 20px;
+            padding-top: 10px;
+        }
+
+        #iced {
+            width: 200px;
+            height: 350px;
+            float: left;
+            margin-left: 240px;
+            margin-top: 10px;
+            background-image: url(pic/iced.webp);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: white;
+            border-radius: 20px;
+
+        }
+
+        #juice {
+            width: 209px;
+            height: 350px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-image: url(pic/juice.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+
+        }
+
+
+
+
+
+        #Smoothie {
+            width: 200px;
+            height: 350px;
+            float: left;
+            margin-left: 240px;
+            margin-top: 10px;
+            background-image: url(pic/Optifast\ Green\ Smoothie_2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            border-radius: 20px;
+
+        }
+
+        #mohito {
+            width: 209px;
+            height: 350px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-image: url(pic/mohito.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            border-radius: 20px;
+
+
+        }
+
+
+
+        #milkshake {
+            width: 200px;
+            height: 350px;
+            float: left;
+            margin-left: 240px;
+            margin-top: 10px;
+            background-image: url(pic/bacon-milkshake-5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            border-radius: 20px;
+
+        }
+
+        #sweet {
+            width: 209px;
+            height: 350px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-image: url(pic/Sweets.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            border-radius: 20px;
+
+        }
+
+
+        #shisha {
+            width: 200px;
+            height: 350px;
+            float: left;
+            margin-left: 240px;
+            margin-top: 10px;
+            background-image: url(pic/shisha.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            border-radius: 20px;
+
+        }
+
+        ul {
+            color: brown;
+        }
+
+        li {
+            text-align: left;
+            color: brown;
+        }
+
+
+        #h4 {
+            margin-bottom: 10px;
+        }
+
+        #logo {
+            width: 150px;
+            height: 100px;
+
+            img {
+                width: 150px;
+                height: 100px;
+                margin-left: 5px;
+                margin-top: 5px;
+            }
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-color: #b17f59d6;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        #main {
+            margin-left: 180px;
+        }
+
+        #links {
+            float: right;
+            margin-top: -80px;
+            align-items: center;
+            padding: 10px 40px;
+            margin-right: 150px;
+
+            a {
+                padding-right: 20px;
+                margin: 20px;
+                text-decoration: none;
+                color: white;
+                border-right: 2px white solid;
+
+            }
+
+            a:hover {
+                color: antiquewhite;
+                font-weight: bolder;
+            }
+
+
+            select {
+                background-color: transparent;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                font-size: 16px;
+            }
+
+
+            select:focus {
+                background-color: white;
+                color: black;
+            }
+
+        } #logIn {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 7px;
+  margin-right: 30px;
+   margin-top: -85px;
+   text-align: center;
+
+
+}
+
+#logIn a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+#logIn a:hover {
+  color: antiquewhite;
+  font-weight: bold;
+}
+    </style>
+</head>
+
+<body>
+    <div id="large">
+        <div>
+            <div id="logo"><a href="Homee.html"><img src="pic/logo.png" alt=""></a></div>
+            <div id="links">
+                <a href="Homee.html" class="A">Home</a>
+                <a href="About Us.html" class="A">About Us</a>
+                <a href="blog.html" class="A">Blog</a>
+                <a href="Contactus.html" class="A">Contact Us</a>
+                <select name="pages" onchange="location = this.value;">
+                    <option value="%">Pages</option>
+                    <option value="menu.html">Menu</option>
+                    <option value="Gallery.html"">Gallery</option>
+                    <option value="FaQ.html"">FAQ</option>
+                    <option value="casestudies.html"">Case Studies</option>
+       
+
+                </select>
+
+            </div>
+            <div id="logIn">
+     <a href="log in.html" >Join Us</a>
+     </div>
+           
+            <div id="introduction">
+                <h1>Our Products</h1>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="A">
+                <div id="hot"></div>
+                <div id="price1"><b>Hot Drinks</b>
+                    <ul>
+                        <li>Espresso 2$</li>
+                        <br>
+                        <li>Turkish Coffee 2.5$</li>
+                        <br>
+                        <li>American Coffee 1.5$</li>
+                        <br>
+                        <li>Americano 2.75</li>
+                        <br>
+                        <li>Irish Cream 2.5$</li>
+                        <br>
+                        <li>Meccchiato 3$</li>
+                        <br>
+                        <li>Cappuccinov 2.95$</li>
+                        <br>
+                        <li>Latte 2.25$</li>
+                    </ul>
+                </div>
+                <div id="iced"></div>
+                <div id="price2"><b>Iced Drinks</b>
+                    <ul>
+                        <li>Iced Coffee 2.25$</li>
+                        <br>
+                        <li>Spanish Latte 2.5$</li>
+                        <br>
+                        <li>Iced Lotus 3.5$</li>
+                        <br>
+                        <li>Iced Chocolate 2.75$</li>
+                        <br>
+                        <li>Iced Tea 2$</li>
+                        <br>
+                        <li>Charlie Mocha 3$</li>
+                        <br>
+                        <li>Frappuccino 2.95$</li>
+                        <br>
+                        <li>Iced Latte 3$</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="B">
+                <div id="juice"></div>
+                <div id="price1"><b>Juice</b>
+                    <ul>
+                        <li>Orange 2.75$</li>
+                        <br>
+                        <li>Strawberry 2.25$</li>
+                        <br>
+                        <li>Lemon 2$</li>
+                        <br>
+                        <li>Kiwi & Lemon 2.75$</li>
+                        <br>
+                        <li>Mango 2$</li>
+                        <br>
+                        <li>Berries 3$</li>
+                        <br>
+                        <li>Pineapple 2.95$</li>
+                        <br>
+                        <li>Pomegranate 3$</li>
+                    </ul>
+                </div>
+                <div id="Smoothie"></div>
+                <div id="price2"><b>Smoothie</b>
+
+                    <ul>
+                        <li>Orange 2.85$</li>
+                        <br>
+                        <li>Strawberry 2.35$</li>
+                        <br>
+                        <li>Lemon 2.5$</li>
+                        <br>
+                        <li>Kiwi & Lemon 2.5$</li>
+                        <br>
+                        <li>Mango 1.25$</li>
+                        <br>
+                        <li>Berries 3$</li>
+                        <br>
+                        <li>Pineapple 2.95$</li>
+                        <br>
+                        <li>Pomegranate 3.5$</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="C">
+                <div id="mohito"></div>
+                <div id="price1"><b>Mojito</b>
+                    <ul>
+                        <li>Berry Fruity 1.25$</li>
+                        <br>
+                        <li>Strawberry 3.5$</li>
+                        <br>
+                        <li>Passion Fruite 2.5$</li>
+                        <br>
+                        <li>Mango 4.75$</li>
+                        <br>
+                        <li>Blue Orange 2$</li>
+                        <br>
+                        <li>Blue Mint 2.20$</li>
+                        <br>
+                        <li>Watermelon 3.5$</li>
+                        <br>
+                        <li>Black Lemon 3$</li>
+
+                        <br>
+
+                    </ul>
+
+                </div>
+                <div id="milkshake"></div>
+                <div id="price2"><b>milkshake</b>
+                    <ul>
+                        <li>Berry 2.25$</li>
+                        <br>
+                        <li>Snickers 1.5$</li>
+                        <br>
+                        <li>Nutella 4.5$</li>
+                        <br>
+                        <li>Galaxy 3.75$</li>
+                        <br>
+                        <li>Strawberry 2$</li>
+                        <br>
+                        <li>Mango 3.10$</li>
+                        <br>
+                        <li>Arabic 2.95$</li>
+                        <br>
+                        <li>Lotus 4$</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="D">
+                <div id="sweet"></div>
+                <div id="price1"><b>Sweets</b>
+                    <ul>
+                        <li>Tiramisu 5.25$</li>
+                        <br>
+                        <li>Red Velvet 2.5$</li>
+                        <br>
+                        <li>Carrot Cake 2.5$</li>
+                        <br>
+                        <li>Brownie 4.75$</li>
+                        <br>
+                        <li>Vanilla Berry 2$</li>
+                        <br>
+                        <li>Orange Cake 2.5$</li>
+                        <br>
+                        <li>Yogurt Cake 2.95$</li>
+                        <br>
+                        <li>Almond Cake 3$</li>
+                    </ul>
+                </div>
+                <div id="shisha"></div>
+                <div id="price2"><b>Shisha</b>
+                    <ul>
+                        <li>Nakhla 5.25$</li>
+                        <br>
+                        <li>Lemon & Mint 3.5$</li>
+                        <br>
+                        <li>Grape & Mint 3.5$</li>
+                        <br>
+                        <li>Grape 2.75$</li>
+                        <br>
+                        <li>Blue Mist 2.5$</li>
+                        <br>
+                        <li>Al-keef 3$</li>
+                        <br>
+                        <li>Love 2.95$</li>
+                        <br>
+                        <li>Mastic 3$</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

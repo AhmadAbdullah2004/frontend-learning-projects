@@ -1,0 +1,143 @@
+<form method="get" action="http://www.zuj.edu.jo"><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lecture8</title>
+    </head>
+    <body>
+        <h1>Lecture(7)-HTML Forms Part(1)</h1>
+    <form>   <!-- هان بنستخدمه عشان نجمع بيانات او نرسلهم للسيرفر-->
+    <table border="1" align="center"  width="80%">
+     
+    <tr>
+    <td>
+     <label> Username</label>  <!--label عشان توصف حقل فيه خليه  -->
+    </td>
+    <td><input type="text" placeholder="user name"></td> <!-- input type  عشان توصف-->   <!--PLACEHOLDER  نص مؤقت-->
+    <td>&nbsp;</td> <!-- خليه جدول فاضيه-->
+    </tr>
+    <tr>
+    <td> <label>password</label>  </td>
+    <td> <input required type ="password" placeholder="password"   </td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td><label> Country</label></td>
+    <td>
+    <select size="4" multiple>
+        <option selected>UK</option>
+        <option>USA</option>
+        <option selected>Jordan</option>
+    </select>
+    <td>&nbsp;</td>
+    </td>
+    </tr>
+    <tr>
+        <td><label>gender</label></td>
+    
+    <td> <input type="radio" name="gender"> <!-- name ضروريه  عشان ما يختار اكثر من خيارررر-->
+    <label>Male</label>
+    </td>
+    <td> <input type="radio" name="gender">
+        <label>female</label>
+        </td>
+    </tr>
+    <tr>
+    <td>
+        <label>langaues</label>
+    </td>
+    <td> <input type="checkbox" > <label>java</label>   </td>     <!--   name use only for radio-->
+    <td> <input type="checkbox" > <label>c++</label>   </td>
+    
+    </tr>
+    <tr>
+    <td  colspan="3">    
+     <label>Comments</label> 
+    </td> 
+    </tr>
+        <!--Row 7-->
+        <tr>
+            <td colspan="3">
+                <!--Textarea-multilines -->
+             
+    
+                    </textarea>
+                     <!--rows and cols for text size   -->  
+            </td>
+        </tr>
+<tr>
+
+    <td>
+<label>Upload Photo	</label>
+ </td>
+<td colspan="2"> <input type="file">      </td>
+</tr>
+<tr>
+    <td>
+        <input type="button" value="Login">  <!--هان الlogin value= ما بتعمل اشي  -->
+        <button>Sign out</button> <!--  هان ال sign out بتوديي على ال action-->
+
+    </td>
+    <td> <input type="reset">  </td>
+    <td> <input type="submit">  </td>
+</tr></table></form>
+    <h1>Lecture(8)-HTML Forms Part(2)
+    </h1>
+    <h3> HTML5 Input Types
+    </h3>
+    <form   method="get" action="http://www.zuj.edu.jo">
+<table border="1" width="80%" align="center">
+<tr>
+    <td><label>Color</label></td>
+    <td><input type="color"></td>
+</tr>
+<tr>
+    <td><label>data</label></td>
+    <td><input type="date"</td>
+</tr>
+<tr>
+    <td><label>time</label></td>
+    <td><input type="time"</td>
+</tr>
+<tr>
+    <td><label>months</label></td>
+    <td><input type="month"</td>
+</tr>
+<tr>
+    <td><label>email</label></td>
+    <td><input type="email"</td>
+</tr>
+<tr>
+    <td><label><input type="submit"</label></td>
+    <td><input type="number" max="5" min="3">   </td>
+</tr>
+</table>
+</form>
+<form method="get" action="http://www.zuj.edu.jo">
+
+    <input type="file"> <br>
+
+    <input type="button" value="Login"><br>
+    <button>Sign out</button><br>
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+
+</form>
+<hr>
+<form action="/action_page.php" autocomplete="on">  <!-- autocomplete  like ctrl+space -->
+first name <input type="text" name="fname">
+Last name <input type="text" name="Lname">
+E-mail   <input type="email" name="email">
+<input type="submit">   
+
+<br>
+Enter a date before 1980-01-01  <input type="datetime" min="1980-01-01">
+Enter a date after 2000-01-01   <input type="datetime" max="2000-01-01">
+<input type="submit">
+</form>
+
+
+    </body>
+    </html>

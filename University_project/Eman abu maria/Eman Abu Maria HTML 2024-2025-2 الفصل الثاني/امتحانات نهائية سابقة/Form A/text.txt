@@ -1,0 +1,24 @@
+home        contact Us      help     center
+our features & services
+
+--------------------------
+no coding
+nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.
+
+seo optimozation
+nunc consequat interdum varius sit amet mattis vulputate enim nulla. Risus feugiat.
+
+cloud solutions
+nisl purus in mollis nunc sed id semper. Rhoncus aenean vel elit scelerisque mauris.
+--------------------------
+We help your business to grow
+A full-service digital agency has the staff to implement a multi-channel marketing strategy and manage your advertising campaigns. 
+They help you reach your target market in multiple advertising channels and multiple devices.
+--------------------------
+
+Colors:
+
+Dark Purple: #9693e6
+Light Purple:#d5d4f5
+silver: #cad3de
+Light Rose: #f5eeee

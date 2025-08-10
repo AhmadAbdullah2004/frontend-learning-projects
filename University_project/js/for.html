@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text">
+    <input type="number"  id="times">
+    <button onclick="showinfo()"> print </button>
+    <div id="output"></div>
+
+    <script>
+    function showinfo() {
+        let text = document.getElementById("text").value;
+        let time = document.getElementById("times").value;
+        let output = "";
+
+        for (let i = 0; i < time; i++) {
+            output += text + "<br>";
+        }
+
+        document.getElementById("output").innerHTML = output;
+    }
+    </script>
+</body>
+</html>

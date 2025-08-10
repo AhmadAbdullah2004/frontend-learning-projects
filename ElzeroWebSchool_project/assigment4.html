@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+   background-color: darkseagreen;
+   label{
+    background-color: ghostwhite;
+    
+   }
+   input{
+    width: 190px;
+    background-color: azure;
+   } 
+
+}
+
+    </style>
+</head>
+<body>
+<form action="assigment3.html" method="get" novalidate >
+    <h1> Form one </h1>
+<label for="username"> user name</label>
+<br>
+<input type="text"id=username required name="name">
+<hr>
+<label for="password">
+   password 
+</label>
+<br>
+<input type="password" id="password" name="password">
+<hr>
+<label for="mobile"> mobile</label>
+<br>
+<input type="tel" id="mobile"  placeholder ="+20100 (234) 123" name="mobile">
+<hr>
+<label for="email">email</label>
+<br>
+<input type="email" id="email" required name="email">
+<hr>
+<label for="subject"> subject</label>
+<br>
+<input type="text">
+<hr>
+<br>
+<label for="file">Upload</label>
+<br>
+<input type="file" id="file">
+<hr>
+<label for="search">search</label>
+<br>
+<input type="search" id="search">
+<hr>
+<label for="url">Url</label><br><input type="url" id="url">
+<hr>
+<label for="time"> time</label>
+<br><input type="time" id="time">
+<hr>
+<label for="prog">enter your major</label>
+<br>
+<input list="programming" name="prog">
+<datalist id="programming">
+<option value="paython"></option>
+<option value="c++"></option>
+<option value="java"></option>
+<option value="paython"></option>
+
+</datalist>
+<br>
+<input name="myfiled" type="text" hidden value="hi">
+<br>
+<input type="reset" value="Empty form">
+
+
+<input type="submit" value="send data">
+</form>   
+    
+</body>
+</html><!--
+
+استخدم method="post" لما بدك ترسل بيانات بشكل مخفي وآمن.
+
+استخدم method="get" لما بدك البيانات تبين بالرابط وتقدر ترجع لها أو تشاركها.
+novalidate=المتصفح ما بيفحص القيم.
+
+الفورم بينرسل حتى لو الحقول فاضية أو خاطئة.
+target="_blank" =فتح الرابط في تبويب (نافذة) جديد عند الضغط عليه.

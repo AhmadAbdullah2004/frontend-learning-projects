@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture7</title>
+</head>
+<body>
+    <h1>Lecture(7)-HTML Forms Part(1)</h1>
+<form>   <!-- هان بنستخدمه عشان نجمع بيانات او نرسلهم للسيرفر-->
+<table border="1" align="center"  width="80%">
+ 
+<tr>
+<td>
+ <label> Username</label>  <!--label عشان توصف حقل فيه خليه  -->
+</td>
+<td><input type="text" placeholder="user name"></td> <!-- input type  عشان توصف-->   <!--PLACEHOLDER  نص مؤقت-->
+<td>&nbsp;</td> <!-- خليه جدول فاضيه-->
+</tr>
+<tr>
+<td> <label>password</label>  </td>
+<td> <input type="password" placeholder="password"   </td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><label> Country</label></td>
+<td>
+<select size="4" multiple>
+    <option >UK</option>
+    <option>USA</option>
+    <option selected>Jordan</option> <!-- selected is used for defulte selected option-->
+</select><!--  واالselect  بتسكرهاا مش input-->
+<td>&nbsp;</td>
+</td>
+</tr>
+<tr>
+    <td><label>gender</label></td>
+
+<td> <input type="radio" name="gender"> <!-- gender ضروريه  عشان ما يختار اكثر من خيارررر-->
+<label>Male</label>
+</td>
+<td> <input type="radio" name="gender">
+    <label>female</label>
+    </td>
+</tr>
+<tr>
+<td>
+    <label>langaues</label>
+</td>
+<td> <input type="checkbox" > <label>java</label>   </td>     <!--   name use only for radio-->
+<td> <input type="checkbox" > <label>c++</label>   </td>
+
+</tr>
+<tr>
+<td  colspan="3">    
+ <label>Comments</label> 
+</td> 
+</tr>
+    <!--Row 7-->
+    <tr>
+        <td colspan="3">
+            <!--Textarea-multilines -->
+            <textarea rows="10" cols="40" placeholder="comments">
+
+                </textarea>
+                 <!--rows and cols for text size   -->  
+        </td>
+    </tr>
+</table>
+
+
+
+
+</form>
+
+    
+</body>
+</html>

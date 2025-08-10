@@ -1,0 +1,15 @@
+h1 {
+    color: brown;
+    background-color: yellow;
+    text-transform: uppercase;       /*for upeer case*/
+    text-indent: 40px;     /*هاي عشان المسافه اول الكلام*/
+}
+
+body {
+    background: silver;
+}
+li{ color: blue; text-transform: capitalize;
+text-decoration:underline ;
+font-style: italic; /*fronttt style  شكل الخططططط*/
+font-family: Arial, Helvetica, sans-serif;
+}

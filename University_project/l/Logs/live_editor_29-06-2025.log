@@ -1,0 +1,24 @@
+19:09:27.513197	INFO	Injected
+19:09:27.514273	INFO	FC 25 Live Editor - v25.1.0
+19:09:27.515075	INFO	Proc <FC25.exe> 0x140000000-0x1657D9000
+19:09:27.515792	INFO	Module <FCLiveEditor.DLL> 0x7FFC40FE0000-0x7FFC41522000
+19:09:27.516482	INFO	CMD: "C:\Program Files (x86)\Steam\steamapps\common\EA SPORTS FC 25\FC25.exe" 
+19:09:27.518288	INFO	Load Config From C:\FC 25 Live Editor\le_config.json
+19:09:27.519663	INFO	Config Load Done
+19:09:27.523182	INFO	Load Language - EN
+19:09:27.523953	ERROR	Can't Find C:\Users\Vip0\OneDrive\Desktop\some.app\fc\l\loc\eng_us\localize.json
+19:09:27.524900	INFO	Engine Setup
+19:09:27.527498	INFO	----------------------------[Context]---------------------------
+19:09:27.528293	INFO	Live Editor DLL Path:    C:\Users\Vip0\OneDrive\Desktop\some.app\fc\l
+19:09:27.528965	INFO	Game Path:               C:\Program Files (x86)\Steam\steamapps\common\EA SPORTS FC 25
+19:09:27.529563	INFO	Game Version:            1.0.124.14362
+19:09:27.530186	INFO	----------------------------------------------------------------
+19:09:27.531296	INFO	Init LUA Scripts Manager
+19:09:27.534077	INFO	[LE::LUA::ScriptsManager::LoadVars] Start
+19:09:27.535354	INFO	[LUA API] Run Code
+19:09:27.536265	INFO	[LUA API] Run Code Success
+19:09:27.537261	INFO	[LE::LUA::ScriptsManager::LoadVars] Done
+19:09:27.537945	ERROR	Lua lib not found in: C:\Users\Vip0\OneDrive\Desktop\some.app\fc\l\lua\libs\v1\live_editor.lua
+19:09:27.538642	ERROR	Lua lib not found in: C:\Users\Vip0\OneDrive\Desktop\some.app\fc\l\lua\libs\v2\main.lua
+19:09:27.539559	INFO	Init LUA Scripts Manager Done
+19:09:27.544741	INFO	Waiting for Press Any Key Screen

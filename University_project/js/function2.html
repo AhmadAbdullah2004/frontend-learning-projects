@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>calculate rectangle area</h1>
+    width:<input type="number" id="width"> <br><br>
+    height:<input type="number"id="height"> <br><br>
+    <button onclick="showarea()"> calculate area</button>
+    <p id="result"></p>
+    <script>
+function calculatearea(width,height){
+ return width*height;
+
+}
+function showarea(){
+let w=document.getElementById("width").value;// .value==user value
+let h=document.getElementById("height").value;// .value==user value
+//convert input into numper
+w=parseFloat(w);
+h=parseFloat(h);
+
+//calculat and display the area
+let area=calculatearea(w,h)
+document.getElementById("result").innerHTML="area"+"    "+area+"    "+"square units";
+}</script>
+</body>
+</html>

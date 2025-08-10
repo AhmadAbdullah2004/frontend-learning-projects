@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+   <link rel="icon"  href="pic/logo.png">
+  <meta charset="UTF-8" />
+  <title>Finjank Café</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+
+    body,
+    html {
+
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+      font-family: 'Poppins', sans-serif;
+      background-color: #C19065;
+    }
+
+
+    #navbar {
+      background-color: #C19065;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 40px;
+      flex-wrap: wrap;
+      border-bottom: #333 1px solid;
+      margin-bottom: 50px;
+    }
+
+    #logo {
+      width: 150px;
+      height: 100px;
+      background-image: url('pic/logo.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-color: #b17f59d6;
+      border-radius: 10px;
+
+
+    }
+
+    #links {
+      float: right;
+      align-items: center;
+      padding: 10px 40px;
+      margin-left: 500px;
+
+      a {
+        padding-right: 20px;
+        margin: 20px;
+        
+        text-decoration: none;
+        color: white;
+        border-right: 2px white solid;
+      }
+
+      a:hover {
+        color: antiquewhite;
+        font-weight: bolder;
+      }
+
+      select {
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+
+
+      select:focus {
+        background-color: white;
+        color: black;
+      }
+    }
+
+
+    .A {
+      text-decoration: none;
+      color: aliceblue;
+      border-right: 1px solid white;
+    }
+
+    .A:last-child {
+      border-right: none;
+    }
+
+
+
+
+    #hero {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+    }
+
+    #text-content {
+      flex: 1 1 45%;
+      padding: 60px 40px;
+      color: #333;
+    }
+
+    #text-content span {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+    }
+
+    #background {
+      flex: 1 1 55%;
+      height: 500px;
+      background-image: url('pic/backgrounfHome.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }#logIn{  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  color: white;
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 7px;
+    }#logIn a:hover {
+  color: antiquewhite;
+  font-weight: bold;
+}
+  </style>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <div id="logo"></div>
+    <div id="links">
+      <a href="Homee.html" class="A">Home</a>
+      <a href="About Us.html" class="A">About Us</a>
+      <a href="blog.html" class="A">Blog</a>
+      <a href="Contactus.html" class="A">Contact Us</a>
+     <select name="pages" onchange="location = this.value;">
+      <option value="%">Pages</option>
+        <option value="menu.html">Menu</option>
+        <option value="Gallery.html">Gallery</option>
+        <option value="FaQ.html">FAQ</option>
+        <option value="casestudies.html">Case Studies</option>
+        
+      </select>
+       
+    </div ><div id="logIn">
+     <a href="log in.html" class="A" >Join Us</a>
+     </div>
+  </div>
+
+ 
+  <div id="hero">
+    <div id="text-content">
+      <h1 id="write">
+        <span>Finjank Café</span>، we’re brewing happiness one cup at a time – with every sip, every smile, and every
+        cozy moment shared.
+        <br><br> Welcome to the place where coffee meets comfort and every visit feels like coming home.
+      </h1>
+    </div>
+    <div id="background"></div>
+  </div>
+
+</body>
+
+</html>
